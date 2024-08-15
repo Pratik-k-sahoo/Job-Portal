@@ -36,7 +36,6 @@ export const register = async (req, res) => {
 
 		let cloudResponseFile;
 		let cloudResponseImage;
-		console.log("req.files", req.files);
 
 		let pdf = req.files?.pdf?.[0];
 
