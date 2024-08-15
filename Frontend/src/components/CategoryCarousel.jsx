@@ -4,7 +4,7 @@ import {
 	CarouselItem,
 	CarouselNext,
 	CarouselPrevious,
-} from "@/components/ui/carousel";
+} from "../components/ui/carousel";
 import { Button } from "./ui/button";
 import { setSearchQuery } from "../redux/jobSlice";
 import { useNavigate } from "react-router-dom";

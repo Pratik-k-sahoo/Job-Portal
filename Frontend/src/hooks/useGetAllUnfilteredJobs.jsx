@@ -7,7 +7,6 @@ import { useEffect } from "react";
 
 const useGetAllUnfilteredJobs = () => {
 	const dispatch = useDispatch();
-	const { searchQuery } = useSelector((state) => state.jobs);
 	useEffect(() => {
 		const fetchAllJobs = async () => {
 			try {
